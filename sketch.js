@@ -20,5 +20,6 @@ function draw() {
  strokeWeight(100);
  line(0,-ly, 0, ly); 
  pop();
- text("control brushstroke with mouse position", width/2, 30)
+ textAlign(CENTER);
+ text("control brushstroke with mouse position", width/2, 30);
 }
